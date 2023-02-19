@@ -1,6 +1,6 @@
 {
   "name": "commercetools-adyen-integration-notification",
-  "version": "10.1.0",
+  "version": "10.1.1",
   "description": "Part of the integration of Adyen with commercetools responsible to receive and process notifications from Adyen",
   "type": "module",
   "scripts": {
@@ -45,17 +45,17 @@
   },
   "homepage": "https://github.com/commercetools/commercetools-adyen-integration",
   "dependencies": {
-    "@adyen/api-library": "12.1.0",
+    "@adyen/api-library": "12.2.0",
     "@commercetools/api-request-builder": "6.0.0",
     "@commercetools/sdk-client": "3.0.0",
     "@commercetools/sdk-middleware-auth": "7.0.1",
     "@commercetools/sdk-middleware-http": "7.0.1",
     "@commercetools/sdk-middleware-queue": "3.0.0",
     "@commercetools/sdk-middleware-user-agent": "3.0.0",
-    "@commercetools/sync-actions": "5.3.0",
+    "@commercetools/sync-actions": "5.3.1",
     "bunyan": "1.8.15",
     "c8": "7.12.0",
-    "lockfile-lint": "4.9.6",
+    "lockfile-lint": "4.10.0",
     "lodash": "4.17.21",
     "node-fetch": "3.3.0",
     "rc": "1.2.8",
@@ -66,18 +66,18 @@
   "devDependencies": {
     "chai": "4.3.7",
     "chai-as-promised": "7.1.1",
-    "eslint": "8.28.0",
+    "eslint": "8.33.0",
     "eslint-config-airbnb-base": "15.0.0",
-    "eslint-config-prettier": "8.5.0",
-    "eslint-plugin-import": "2.26.0",
-    "husky": "8.0.2",
+    "eslint-config-prettier": "8.6.0",
+    "eslint-plugin-import": "2.27.5",
+    "husky": "8.0.3",
     "ip": "1.1.8",
-    "lint-staged": "13.0.3",
+    "lint-staged": "13.1.0",
     "localtunnel": "2.0.2",
-    "mocha": "10.1.0",
+    "mocha": "10.2.0",
     "p-map": "5.5.0",
-    "prettier": "2.7.1",
-    "sinon": "14.0.2"
+    "prettier": "2.8.3",
+    "sinon": "15.0.1"
   },
   "husky": {
     "hooks": {

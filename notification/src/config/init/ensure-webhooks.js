@@ -25,15 +25,19 @@ async function ensureWebhooks() {
         (hook) =>
           hook.type === 'standard' &&
           hook.url === adyenConfig.notificationModuleBaseUrl
+    
       )
       if (!existingWebhook) {
         const createWebhookRequestBody = {
           type: 'standard',
+          url: 'https://www.agoda.com/',
           url: adyenConfig.notificationModuleBaseUrl,
           active: 'true',
           communicationFormat: 'json',
+        
         }
 
+       
         const createWebhookResponse = await fetch(webhookUrl, {
           method: 'POST',
           body: JSON.stringify(createWebhookRequestBody),
